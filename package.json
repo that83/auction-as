@@ -1,0 +1,26 @@
+{
+  "name": "auction-as",
+  "version": "1.0.0",
+  "description": "A sample smart contract for auction in NEAR protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/that83/auction-as.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/that83/auction-as/issues"
+  },
+  "homepage": "https://github.com/that83/auction-as#readme",
+  "keywords": [],
+  "devDependencies": {
+    "assemblyscript": "^0.19.11"
+  },
+  "dependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
