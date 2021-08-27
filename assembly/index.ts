@@ -169,9 +169,9 @@ export class Contract {
     logging.log("Winner:              " + this.winner);
     logging.log("Player deposited:");
     for (let i = 0; i < this.playerArray.length; i++) {
-      const tempPlayer = this.players.get(this.playerArray[i]);
-      if (!(tempPlayer === null)) {
-        logging.log("            " + this.playerArray[i] + " : " + (u128.div(tempPlayer,toYoctoN)).toString() + " NEAR");
+      const tempDeposit = this.players.get(this.playerArray[i]);
+      if (!(tempDeposit === null)) {
+        logging.log("            " + this.playerArray[i] + " : " + (u128.div(tempDeposit,toYoctoN)).toString() + " NEAR");
       }
     }
   }
